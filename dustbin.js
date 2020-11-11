@@ -9,7 +9,7 @@ class dustbin
 		this.wallThickness=20;
 		// in c24 we use this 
 		//this.angle=0;	
-		this.image=loadImage("dustbingreen.png")
+		this.image=loadImage("dustbingreen.png");
 		this.bottomBody=Bodies.rectangle(this.x, this.y, this.dustbinWidth, this.wallThickness, {isStatic:true})
 		this.leftWallBody=Bodies.rectangle(this.x-this.dustbinWidth/2, this.y-this.dustbinHeight/2, this.wallThickness, this.dustbinHeight, {isStatic:true})
 		// used in c24 
